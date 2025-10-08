@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 外层垂直线性布局，控制行的垂直排列 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#222222"
+    android:padding="10dp"> <!-- 整个布局与屏幕边缘的间距 -->
+
+    <!-- 第一行（水平线性布局） -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"> <!-- 行与行之间的垂直间距 -->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.6"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="One,One"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="One,Two"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.6"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="One,Three"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="One,Four"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- 第二行（水平线性布局） -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.6"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="Two,One"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="Two,Two"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.6"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="Two,Three"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="Two,Four"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- 第三行（水平线性布局） -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="Three,One"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="Three,Two"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="Three,Three"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="Three,Four"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- 第四行（水平线性布局） -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.6"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="Four,One"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="Four,Two"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.6"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="Four,Three"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:text="Four,Four"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
