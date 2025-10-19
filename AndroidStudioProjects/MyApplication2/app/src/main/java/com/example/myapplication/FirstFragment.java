@@ -34,7 +34,10 @@ public class FirstFragment extends Fragment {
                         .navigate(R.id.action_FirstFragment_to_SecondFragment)
         );
     }
-/*1*/
+    /*1*/
+    /*2*/
+    
+
     @Override
     public void onDestroyView() {
         super.onDestroyView();
