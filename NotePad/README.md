@@ -1,7 +1,3 @@
-# NotePad
-以下是在参考你提供的 NotePad 项目 README.md 基础上，优化和补充后的版本，保持核心结构不变，增强可读性和实用性：
-
-
 # NotePad 记事本应用
 
 ## 项目简介  
@@ -10,12 +6,21 @@ NotePad 是一款轻量级 Android 记事本应用，基于 Android 官方数据
 
 ## 功能特点  
 - **基础笔记管理**：支持创建、编辑、删除笔记，操作流程简洁直观
+ <img width="304" height="588" alt="Screenshot_20251127-103813" src="https://github.com/user-attachments/assets/5df364b4-4a15-4f61-b914-0e87f292428c" />
+ 
+- **时间排序**：笔记默认按修改时间降序排列，最新编辑内容优先展示
+ <img width="304" height="588" alt="Screenshot_20251127-103813" src="https://github.com/user-attachments/assets/5df364b4-4a15-4f61-b914-0e87f292428c" />
+   
+- **分类与置顶**：可对笔记进行分类管理，并支持置顶重要内容
+<img width="304" height="588" alt="Screenshot_20251127-103952" src="https://github.com/user-attachments/assets/866983c4-3d44-40dd-b446-8997c77f9905" />
+
+- **实时保存**：编辑过程中自动保存内容，避免意外丢失
   
-- **时间排序**：笔记默认按修改时间降序排列，最新编辑内容优先展示  
-- **分类与置顶**：可对笔记进行分类管理，并支持置顶重要内容  
-- **实时保存**：编辑过程中自动保存内容，避免意外丢失  
-- **搜索与筛选**：支持按关键词搜索笔记，或按分类快速筛选内容  
-- **时间记录**：列表中清晰展示每条笔记的创建与最后修改时间  
+- **搜索与筛选**：支持按关键词搜索笔记，或按分类快速筛选内容
+<img width="304" height="588" alt="Screenshot_20251127-104106" src="https://github.com/user-attachments/assets/bcd973bb-37d8-4a70-836b-8de1ecb8a198" />
+
+- **修改标题**：支持随时更改标题，可按标题搜索笔记  
+<img width="304" height="588" alt="Screenshot_20251127-112730" src="https://github.com/user-attachments/assets/aead00bf-9248-4cd4-8072-e5f25830369a" />
 
 
 ## 技术架构  
